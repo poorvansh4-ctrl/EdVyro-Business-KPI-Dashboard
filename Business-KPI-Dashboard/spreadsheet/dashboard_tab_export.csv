@@ -1,0 +1,61 @@
+,Customer churn KPI dashboard,,,,,,,,,
+,"EdVyro Data Analytics internship, Task 2 (Business KPI Dashboard). 15 synthetic customers, one observation period, amounts in ₹ (fictional). Source: EdVyro customer_churn_sample.csv.",,,,,,,,,
+,"Filters: choose values in the four slicers below. They update every scorecard, chart and segment table on this tab. Anyone with the link can use them without edit access; selections only change your own view.",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,Executive overview,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,Churn rate = churned ÷ customers. Retention rate = active ÷ customers. Revenue at risk = monthly charges of churned customers. Average tenure = mean months since sign-up. All figures cover the customers that match the filters (all 15 when nothing is selected).,,,,,,,,,
+,Churn analysis,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,"Payment method: inside Month-to-Month every payment method churned at 100%, and no Bank Transfer customer is on Month-to-Month, so these differences follow the contract mix (see the contract by payment table at the bottom of this tab).",,,,,,,,,
+,Revenue analysis,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,Customer segmentation,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,Segment tables are at the bottom of this tab. Findings and recommendations are on the Insights tab. Every KPI is checked against the verified Python results on the KPI Check tab.,,,,,,,,,
+,Segment tables,,,,,,,,,
+,"These tables follow the filters above and feed the charts. Churn rate is the average of the 100% / 0% Churn rate column, which equals churned ÷ customers in each segment.",,,,,,,,,
+,By contract type,,,,,,,,,
+,ContractType,Customers,Churned,Retained,Churn rate,Monthly revenue,Revenue at risk,Retained revenue,Avg revenue per customer,Avg tenure (months)
+,Month-to-Month,7,7,0,100.0%,₹409.93,₹409.93,₹0.00,₹58.56,7.0
+,One Year,4,0,4,0.0%,₹259.96,₹0.00,₹259.96,₹64.99,19.8
+,Two Year,4,0,4,0.0%,₹599.96,₹0.00,₹599.96,₹149.99,38.5
+,,,,,,,,,,
+,By tenure group,,,,,,,,,
+,TenureGroup,Customers,Churned,Retained,Churn rate,Monthly revenue,Revenue at risk,Retained revenue,Avg revenue per customer,Avg tenure (months)
+,0-6 months,4,4,0,100.0%,₹199.96,₹199.96,₹0.00,₹49.99,3.8
+,7-12 months,2,2,0,100.0%,₹129.98,₹129.98,₹0.00,₹64.99,10.0
+,13-24 months,5,1,4,20.0%,₹339.95,₹79.99,₹259.96,₹67.99,18.6
+,25+ months,4,0,4,0.0%,₹599.96,₹0.00,₹599.96,₹149.99,38.5
+,,,,,,,,,,
+,By payment method (highest churn first),,,,,,,,,
+,PaymentMethod,Customers,Churned,Retained,Churn rate,Monthly revenue,Revenue at risk,Retained revenue,Avg revenue per customer,Avg tenure (months)
+,Debit Card,2,2,0,100.0%,₹159.98,₹159.98,₹0.00,₹79.99,11.0
+,UPI,4,3,1,75.0%,₹199.96,₹149.97,₹49.99,₹49.99,7.5
+,Credit Card,6,2,4,33.3%,₹629.94,₹99.98,₹529.96,₹104.99,22.7
+,Bank Transfer,3,0,3,0.0%,₹279.97,₹0.00,₹279.97,₹93.32,31.3
+,,,,,,,,,,
+,By plan (highest churn first),,,,,,,,,
+,SubscriptionType,Customers,Churned,Retained,Churn rate,Monthly revenue,Revenue at risk,Retained revenue,Avg revenue per customer,Avg tenure (months)
+,Basic,7,5,2,71.4%,₹349.93,₹249.95,₹99.98,₹49.99,9.6
+,Pro,4,2,2,50.0%,₹319.96,₹159.98,₹159.98,₹79.99,15.3
+,Enterprise,4,0,4,0.0%,₹599.96,₹0.00,₹599.96,₹149.99,38.5
+,,,,,,,,,,
+,By support tickets in the previous 90 days (highest churn first),,,,,,,,,
+,SupportTicketBand,Customers,Churned,Retained,Churn rate,Monthly revenue,Revenue at risk,Retained revenue,Avg revenue per customer,Avg tenure (months)
+,High (4+),5,5,0,100.0%,₹279.95,₹279.95,₹0.00,₹55.99,4.6
+,Medium (2-3),4,2,2,50.0%,₹259.96,₹129.98,₹129.98,₹64.99,14.8
+,Low (0-1),6,0,6,0.0%,₹729.94,₹0.00,₹729.94,₹121.66,33.3
+,,,,,,,,,,
+,Churn rate by contract type and payment method,,,,,,,,,
+,Churn rate,PaymentMethod,,,,,,,,
+,ContractType,Bank Transfer,Credit Card,Debit Card,UPI,,,,,
+,Month-to-Month,,100.0%,100.0%,100.0%,,,,,
+,One Year,0.0%,0.0%,,0.0%,,,,,
+,Two Year,0.0%,0.0%,,,,,,,
+,"Read across a row: within one contract type, churn does not change with payment method. A blank cell means no customer has that combination.",,,,,,,,,

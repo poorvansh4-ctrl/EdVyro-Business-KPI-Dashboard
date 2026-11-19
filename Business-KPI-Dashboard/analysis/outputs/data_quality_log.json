@@ -1,0 +1,290 @@
+{
+  "profile": {
+    "source_file": "original_dataset.csv",
+    "source_sha256": "1d5048cad41e8abbefd5fab04cc7dd6579234a292a8f59f85d7d072f37fabdce",
+    "rows": 15,
+    "columns": 11,
+    "column_names": [
+      "CustomerID",
+      "Gender",
+      "Age",
+      "TenureMonths",
+      "SubscriptionType",
+      "MonthlyCharges",
+      "TotalCharges",
+      "ContractType",
+      "SupportTickets",
+      "PaymentMethod",
+      "Churn"
+    ],
+    "columns_match_expected": true,
+    "missing_values": {
+      "CustomerID": 0,
+      "Gender": 0,
+      "Age": 0,
+      "TenureMonths": 0,
+      "SubscriptionType": 0,
+      "MonthlyCharges": 0,
+      "TotalCharges": 0,
+      "ContractType": 0,
+      "SupportTickets": 0,
+      "PaymentMethod": 0,
+      "Churn": 0
+    },
+    "blank_strings": {
+      "CustomerID": 0,
+      "Gender": 0,
+      "Age": 0,
+      "TenureMonths": 0,
+      "SubscriptionType": 0,
+      "MonthlyCharges": 0,
+      "TotalCharges": 0,
+      "ContractType": 0,
+      "SupportTickets": 0,
+      "PaymentMethod": 0,
+      "Churn": 0
+    },
+    "cells_with_extra_whitespace": {
+      "CustomerID": 0,
+      "Gender": 0,
+      "Age": 0,
+      "TenureMonths": 0,
+      "SubscriptionType": 0,
+      "MonthlyCharges": 0,
+      "TotalCharges": 0,
+      "ContractType": 0,
+      "SupportTickets": 0,
+      "PaymentMethod": 0,
+      "Churn": 0
+    },
+    "duplicate_rows": 0,
+    "duplicate_customer_ids": 0,
+    "customer_id_pattern_ok": true,
+    "type_checks": {
+      "Age": {
+        "unparseable_values": 0,
+        "non_integer_values": 0
+      },
+      "TenureMonths": {
+        "unparseable_values": 0,
+        "non_integer_values": 0
+      },
+      "SupportTickets": {
+        "unparseable_values": 0,
+        "non_integer_values": 0
+      },
+      "MonthlyCharges": {
+        "unparseable_values": 0,
+        "non_integer_values": null
+      },
+      "TotalCharges": {
+        "unparseable_values": 0,
+        "non_integer_values": null
+      }
+    },
+    "unexpected_category_values": {
+      "Gender": [],
+      "SubscriptionType": [],
+      "ContractType": [],
+      "PaymentMethod": [],
+      "Churn": []
+    },
+    "category_counts": {
+      "Gender": {
+        "Female": 8,
+        "Male": 7
+      },
+      "SubscriptionType": {
+        "Basic": 7,
+        "Pro": 4,
+        "Enterprise": 4
+      },
+      "ContractType": {
+        "Month-to-Month": 7,
+        "One Year": 4,
+        "Two Year": 4
+      },
+      "PaymentMethod": {
+        "Credit Card": 6,
+        "UPI": 4,
+        "Bank Transfer": 3,
+        "Debit Card": 2
+      },
+      "Churn": {
+        "No": 8,
+        "Yes": 7
+      }
+    }
+  },
+  "validation": {
+    "checks": {
+      "row_count_unchanged": true,
+      "customer_ids_unique": true,
+      "no_missing_values": true,
+      "categories_valid": true,
+      "numeric_ranges_valid": true,
+      "total_charges_equal_monthly_x_tenure": true,
+      "one_price_per_subscription_type": true,
+      "churn_flag_matches_churn": true,
+      "every_row_has_tenure_group": true
+    },
+    "all_checks_passed": true,
+    "range_violations": {
+      "Age": 0,
+      "TenureMonths": 0,
+      "SupportTickets": 0,
+      "MonthlyCharges": 0,
+      "TotalCharges": 0
+    },
+    "monthly_price_by_subscription_type": {
+      "Basic": 49.99,
+      "Enterprise": 149.99,
+      "Pro": 79.99
+    },
+    "total_charges_mismatches": 0
+  },
+  "statistics": {
+    "numeric_summary": {
+      "Age": {
+        "count": 15.0,
+        "mean": 39.07,
+        "std": 11.39,
+        "min": 23.0,
+        "25%": 30.0,
+        "50%": 38.0,
+        "75%": 47.0,
+        "max": 60.0,
+        "median": 38.0,
+        "skew": 0.368
+      },
+      "TenureMonths": {
+        "count": 15.0,
+        "mean": 18.8,
+        "std": 14.33,
+        "min": 2.0,
+        "25%": 7.0,
+        "50%": 15.0,
+        "75%": 27.0,
+        "max": 48.0,
+        "median": 15.0,
+        "skew": 0.709
+      },
+      "SupportTickets": {
+        "count": 15.0,
+        "mean": 2.53,
+        "std": 1.92,
+        "min": 0.0,
+        "25%": 1.0,
+        "50%": 2.0,
+        "75%": 4.0,
+        "max": 6.0,
+        "median": 2.0,
+        "skew": 0.359
+      },
+      "MonthlyCharges": {
+        "count": 15.0,
+        "mean": 84.66,
+        "std": 42.74,
+        "min": 49.99,
+        "25%": 49.99,
+        "50%": 79.99,
+        "75%": 114.99,
+        "max": 149.99,
+        "median": 79.99,
+        "skew": 0.869
+      },
+      "TotalCharges": {
+        "count": 15.0,
+        "mean": 2088.48,
+        "std": 2407.37,
+        "min": 99.98,
+        "25%": 449.91,
+        "50%": 1099.78,
+        "75%": 3209.73,
+        "max": 7199.52,
+        "median": 1099.78,
+        "skew": 1.214
+      }
+    },
+    "iqr_outliers": {
+      "Age": {
+        "q1": 30.0,
+        "q3": 47.0,
+        "iqr": 17.0,
+        "lower_fence": 4.5,
+        "upper_fence": 72.5,
+        "outlier_count": 0,
+        "outlier_values": []
+      },
+      "TenureMonths": {
+        "q1": 7.0,
+        "q3": 27.0,
+        "iqr": 20.0,
+        "lower_fence": -23.0,
+        "upper_fence": 57.0,
+        "outlier_count": 0,
+        "outlier_values": []
+      },
+      "SupportTickets": {
+        "q1": 1.0,
+        "q3": 4.0,
+        "iqr": 3.0,
+        "lower_fence": -3.5,
+        "upper_fence": 8.5,
+        "outlier_count": 0,
+        "outlier_values": []
+      },
+      "MonthlyCharges": {
+        "q1": 49.99,
+        "q3": 114.99,
+        "iqr": 65.0,
+        "lower_fence": -47.51,
+        "upper_fence": 212.49,
+        "outlier_count": 0,
+        "outlier_values": []
+      },
+      "TotalCharges": {
+        "q1": 449.91,
+        "q3": 3209.73,
+        "iqr": 2759.82,
+        "lower_fence": -3689.82,
+        "upper_fence": 7349.46,
+        "outlier_count": 0,
+        "outlier_values": []
+      }
+    },
+    "mean_by_churn": {
+      "Age": {
+        "No": 46.62,
+        "Yes": 30.43
+      },
+      "TenureMonths": {
+        "No": 29.12,
+        "Yes": 7.0
+      },
+      "SupportTickets": {
+        "No": 1.0,
+        "Yes": 4.29
+      },
+      "MonthlyCharges": {
+        "No": 107.49,
+        "Yes": 58.56
+      },
+      "TotalCharges": {
+        "No": 3527.21,
+        "Yes": 444.22
+      }
+    }
+  },
+  "cleaning_actions": [
+    "Trimmed leading/trailing whitespace on every text field (cells affected listed in profile).",
+    "Cast Age, TenureMonths, SupportTickets to integer; MonthlyCharges, TotalCharges to 2-dp decimal.",
+    "Added ChurnFlag (1 = Yes, 0 = No) and ChurnStatus (Churned / Retained).",
+    "Added TenureGroup, AgeGroup, SupportTicketBand, TotalChargesBand (+ sort-order columns).",
+    "Added ContractOrder so contract types sort Month-to-Month > One Year > Two Year.",
+    "Added ExpectedTotalCharges and TotalChargesCheck (MonthlyCharges x TenureMonths, tolerance 0.01).",
+    "No rows removed, no values imputed, no outliers capped."
+  ],
+  "cleaned_rows": 15,
+  "cleaned_columns": 24
+}

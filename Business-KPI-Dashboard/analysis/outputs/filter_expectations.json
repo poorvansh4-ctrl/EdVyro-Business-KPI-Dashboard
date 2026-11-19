@@ -1,0 +1,6302 @@
+[
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "All",
+   "PaymentMethod": "All",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 15,
+   "churned_customers": 7,
+   "active_customers": 8,
+   "churn_rate_pct": 46.666666666666664,
+   "retention_rate_pct": 53.333333333333336,
+   "monthly_revenue": 1269.8500000000001,
+   "revenue_at_risk": 409.93,
+   "revenue_at_risk_pct": 32.28176556286175,
+   "avg_tenure_months": 18.8,
+   "arpu": 84.65666666666668,
+   "lifetime_revenue": 31327.18
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "All",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 7,
+   "churned_customers": 7,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 409.93,
+   "revenue_at_risk": 409.93,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 7.0,
+   "arpu": 58.56142857142857,
+   "lifetime_revenue": 3109.5099999999998
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "All",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 8,
+   "churned_customers": 0,
+   "active_customers": 8,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 859.9200000000001,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 29.125,
+   "arpu": 107.49000000000001,
+   "lifetime_revenue": 28217.670000000002
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "All",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 3,
+   "churned_customers": 0,
+   "active_customers": 3,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 279.97,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 31.333333333333332,
+   "arpu": 93.32333333333334,
+   "lifetime_revenue": 10219.060000000001
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "All",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "All",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 3,
+   "churned_customers": 0,
+   "active_customers": 3,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 279.97,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 31.333333333333332,
+   "arpu": 93.32333333333334,
+   "lifetime_revenue": 10219.060000000001
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "All",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 6,
+   "churned_customers": 2,
+   "active_customers": 4,
+   "churn_rate_pct": 33.33333333333333,
+   "retention_rate_pct": 66.66666666666666,
+   "monthly_revenue": 629.94,
+   "revenue_at_risk": 99.98,
+   "revenue_at_risk_pct": 15.871352827253387,
+   "avg_tenure_months": 22.666666666666668,
+   "arpu": 104.99000000000001,
+   "lifetime_revenue": 17848.64
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "All",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 2,
+   "churned_customers": 2,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 99.98,
+   "revenue_at_risk": 99.98,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 7.5,
+   "arpu": 49.99,
+   "lifetime_revenue": 749.85
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "All",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 4,
+   "churned_customers": 0,
+   "active_customers": 4,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 529.96,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 30.25,
+   "arpu": 132.49,
+   "lifetime_revenue": 17098.79
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "All",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 2,
+   "churned_customers": 2,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 159.98,
+   "revenue_at_risk": 159.98,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 11.0,
+   "arpu": 79.99,
+   "lifetime_revenue": 1759.7799999999997
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "All",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 2,
+   "churned_customers": 2,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 159.98,
+   "revenue_at_risk": 159.98,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 11.0,
+   "arpu": 79.99,
+   "lifetime_revenue": 1759.7799999999997
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "All",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "All",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 4,
+   "churned_customers": 3,
+   "active_customers": 1,
+   "churn_rate_pct": 75.0,
+   "retention_rate_pct": 25.0,
+   "monthly_revenue": 199.96,
+   "revenue_at_risk": 149.97,
+   "revenue_at_risk_pct": 75.0,
+   "avg_tenure_months": 7.5,
+   "arpu": 49.99,
+   "lifetime_revenue": 1499.7
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "All",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 3,
+   "churned_customers": 3,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 149.97,
+   "revenue_at_risk": 149.97,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 4.0,
+   "arpu": 49.99,
+   "lifetime_revenue": 599.88
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "All",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 0,
+   "active_customers": 1,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 49.99,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 18.0,
+   "arpu": 49.99,
+   "lifetime_revenue": 899.82
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 4,
+   "churned_customers": 4,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 199.96,
+   "revenue_at_risk": 199.96,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 3.75,
+   "arpu": 49.99,
+   "lifetime_revenue": 749.85
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 4,
+   "churned_customers": 4,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 199.96,
+   "revenue_at_risk": 199.96,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 3.75,
+   "arpu": 49.99,
+   "lifetime_revenue": 749.85
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 1,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 49.99,
+   "revenue_at_risk": 49.99,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 3.0,
+   "arpu": 49.99,
+   "lifetime_revenue": 149.97
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 1,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 49.99,
+   "revenue_at_risk": 49.99,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 3.0,
+   "arpu": 49.99,
+   "lifetime_revenue": 149.97
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 3,
+   "churned_customers": 3,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 149.97,
+   "revenue_at_risk": 149.97,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 4.0,
+   "arpu": 49.99,
+   "lifetime_revenue": 599.88
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 3,
+   "churned_customers": 3,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 149.97,
+   "revenue_at_risk": 149.97,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 4.0,
+   "arpu": 49.99,
+   "lifetime_revenue": 599.88
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 5,
+   "churned_customers": 1,
+   "active_customers": 4,
+   "churn_rate_pct": 20.0,
+   "retention_rate_pct": 80.0,
+   "monthly_revenue": 339.95,
+   "revenue_at_risk": 79.99,
+   "revenue_at_risk_pct": 23.529930872187084,
+   "avg_tenure_months": 18.6,
+   "arpu": 67.99,
+   "lifetime_revenue": 6239.07
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 1,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 79.99,
+   "revenue_at_risk": 79.99,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 14.0,
+   "arpu": 79.99,
+   "lifetime_revenue": 1119.86
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 4,
+   "churned_customers": 0,
+   "active_customers": 4,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 259.96,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 19.75,
+   "arpu": 64.99,
+   "lifetime_revenue": 5119.21
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 2,
+   "churned_customers": 0,
+   "active_customers": 2,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 129.98,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 23.0,
+   "arpu": 64.99,
+   "lifetime_revenue": 3019.54
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 2,
+   "churned_customers": 0,
+   "active_customers": 2,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 129.98,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 23.0,
+   "arpu": 64.99,
+   "lifetime_revenue": 3019.54
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 0,
+   "active_customers": 1,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 79.99,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 15.0,
+   "arpu": 79.99,
+   "lifetime_revenue": 1199.85
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 0,
+   "active_customers": 1,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 79.99,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 15.0,
+   "arpu": 79.99,
+   "lifetime_revenue": 1199.85
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 1,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 79.99,
+   "revenue_at_risk": 79.99,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 14.0,
+   "arpu": 79.99,
+   "lifetime_revenue": 1119.86
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 1,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 79.99,
+   "revenue_at_risk": 79.99,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 14.0,
+   "arpu": 79.99,
+   "lifetime_revenue": 1119.86
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 0,
+   "active_customers": 1,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 49.99,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 18.0,
+   "arpu": 49.99,
+   "lifetime_revenue": 899.82
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 0,
+   "active_customers": 1,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 49.99,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 18.0,
+   "arpu": 49.99,
+   "lifetime_revenue": 899.82
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 4,
+   "churned_customers": 0,
+   "active_customers": 4,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 599.96,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 38.5,
+   "arpu": 149.99,
+   "lifetime_revenue": 23098.46
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 4,
+   "churned_customers": 0,
+   "active_customers": 4,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 599.96,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 38.5,
+   "arpu": 149.99,
+   "lifetime_revenue": 23098.46
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 0,
+   "active_customers": 1,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 149.99,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 48.0,
+   "arpu": 149.99,
+   "lifetime_revenue": 7199.52
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 0,
+   "active_customers": 1,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 149.99,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 48.0,
+   "arpu": 149.99,
+   "lifetime_revenue": 7199.52
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 3,
+   "churned_customers": 0,
+   "active_customers": 3,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 449.97,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 35.333333333333336,
+   "arpu": 149.99,
+   "lifetime_revenue": 15898.94
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 3,
+   "churned_customers": 0,
+   "active_customers": 3,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 449.97,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 35.333333333333336,
+   "arpu": 149.99,
+   "lifetime_revenue": 15898.94
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 2,
+   "churned_customers": 2,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 129.98,
+   "revenue_at_risk": 129.98,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 10.0,
+   "arpu": 64.99,
+   "lifetime_revenue": 1239.8
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 2,
+   "churned_customers": 2,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 129.98,
+   "revenue_at_risk": 129.98,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 10.0,
+   "arpu": 64.99,
+   "lifetime_revenue": 1239.8
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 1,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 49.99,
+   "revenue_at_risk": 49.99,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 12.0,
+   "arpu": 49.99,
+   "lifetime_revenue": 599.88
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 1,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 49.99,
+   "revenue_at_risk": 49.99,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 12.0,
+   "arpu": 49.99,
+   "lifetime_revenue": 599.88
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 1,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 79.99,
+   "revenue_at_risk": 79.99,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 8.0,
+   "arpu": 79.99,
+   "lifetime_revenue": 639.92
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 1,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 79.99,
+   "revenue_at_risk": 79.99,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 8.0,
+   "arpu": 79.99,
+   "lifetime_revenue": 639.92
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "All",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "All",
+   "PaymentMethod": "All",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 7,
+   "churned_customers": 7,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 409.93,
+   "revenue_at_risk": 409.93,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 7.0,
+   "arpu": 58.56142857142857,
+   "lifetime_revenue": 3109.5099999999998
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "All",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 7,
+   "churned_customers": 7,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 409.93,
+   "revenue_at_risk": 409.93,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 7.0,
+   "arpu": 58.56142857142857,
+   "lifetime_revenue": 3109.5099999999998
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "All",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "All",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "All",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "All",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "All",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 2,
+   "churned_customers": 2,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 99.98,
+   "revenue_at_risk": 99.98,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 7.5,
+   "arpu": 49.99,
+   "lifetime_revenue": 749.85
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "All",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 2,
+   "churned_customers": 2,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 99.98,
+   "revenue_at_risk": 99.98,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 7.5,
+   "arpu": 49.99,
+   "lifetime_revenue": 749.85
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "All",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "All",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 2,
+   "churned_customers": 2,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 159.98,
+   "revenue_at_risk": 159.98,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 11.0,
+   "arpu": 79.99,
+   "lifetime_revenue": 1759.7799999999997
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "All",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 2,
+   "churned_customers": 2,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 159.98,
+   "revenue_at_risk": 159.98,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 11.0,
+   "arpu": 79.99,
+   "lifetime_revenue": 1759.7799999999997
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "All",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "All",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 3,
+   "churned_customers": 3,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 149.97,
+   "revenue_at_risk": 149.97,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 4.0,
+   "arpu": 49.99,
+   "lifetime_revenue": 599.88
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "All",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 3,
+   "churned_customers": 3,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 149.97,
+   "revenue_at_risk": 149.97,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 4.0,
+   "arpu": 49.99,
+   "lifetime_revenue": 599.88
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "All",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 4,
+   "churned_customers": 4,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 199.96,
+   "revenue_at_risk": 199.96,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 3.75,
+   "arpu": 49.99,
+   "lifetime_revenue": 749.85
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 4,
+   "churned_customers": 4,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 199.96,
+   "revenue_at_risk": 199.96,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 3.75,
+   "arpu": 49.99,
+   "lifetime_revenue": 749.85
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 1,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 49.99,
+   "revenue_at_risk": 49.99,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 3.0,
+   "arpu": 49.99,
+   "lifetime_revenue": 149.97
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 1,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 49.99,
+   "revenue_at_risk": 49.99,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 3.0,
+   "arpu": 49.99,
+   "lifetime_revenue": 149.97
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 3,
+   "churned_customers": 3,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 149.97,
+   "revenue_at_risk": 149.97,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 4.0,
+   "arpu": 49.99,
+   "lifetime_revenue": 599.88
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 3,
+   "churned_customers": 3,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 149.97,
+   "revenue_at_risk": 149.97,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 4.0,
+   "arpu": 49.99,
+   "lifetime_revenue": 599.88
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 1,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 79.99,
+   "revenue_at_risk": 79.99,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 14.0,
+   "arpu": 79.99,
+   "lifetime_revenue": 1119.86
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 1,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 79.99,
+   "revenue_at_risk": 79.99,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 14.0,
+   "arpu": 79.99,
+   "lifetime_revenue": 1119.86
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 1,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 79.99,
+   "revenue_at_risk": 79.99,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 14.0,
+   "arpu": 79.99,
+   "lifetime_revenue": 1119.86
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 1,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 79.99,
+   "revenue_at_risk": 79.99,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 14.0,
+   "arpu": 79.99,
+   "lifetime_revenue": 1119.86
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 2,
+   "churned_customers": 2,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 129.98,
+   "revenue_at_risk": 129.98,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 10.0,
+   "arpu": 64.99,
+   "lifetime_revenue": 1239.8
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 2,
+   "churned_customers": 2,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 129.98,
+   "revenue_at_risk": 129.98,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 10.0,
+   "arpu": 64.99,
+   "lifetime_revenue": 1239.8
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 1,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 49.99,
+   "revenue_at_risk": 49.99,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 12.0,
+   "arpu": 49.99,
+   "lifetime_revenue": 599.88
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 1,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 49.99,
+   "revenue_at_risk": 49.99,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 12.0,
+   "arpu": 49.99,
+   "lifetime_revenue": 599.88
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 1,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 79.99,
+   "revenue_at_risk": 79.99,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 8.0,
+   "arpu": 79.99,
+   "lifetime_revenue": 639.92
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 1,
+   "active_customers": 0,
+   "churn_rate_pct": 100.0,
+   "retention_rate_pct": 0.0,
+   "monthly_revenue": 79.99,
+   "revenue_at_risk": 79.99,
+   "revenue_at_risk_pct": 100.0,
+   "avg_tenure_months": 8.0,
+   "arpu": 79.99,
+   "lifetime_revenue": 639.92
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Month-to-Month",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "All",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 4,
+   "churned_customers": 0,
+   "active_customers": 4,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 259.96,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 19.75,
+   "arpu": 64.99,
+   "lifetime_revenue": 5119.21
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 4,
+   "churned_customers": 0,
+   "active_customers": 4,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 259.96,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 19.75,
+   "arpu": 64.99,
+   "lifetime_revenue": 5119.21
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 2,
+   "churned_customers": 0,
+   "active_customers": 2,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 129.98,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 23.0,
+   "arpu": 64.99,
+   "lifetime_revenue": 3019.54
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 2,
+   "churned_customers": 0,
+   "active_customers": 2,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 129.98,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 23.0,
+   "arpu": 64.99,
+   "lifetime_revenue": 3019.54
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 0,
+   "active_customers": 1,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 79.99,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 15.0,
+   "arpu": 79.99,
+   "lifetime_revenue": 1199.85
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 0,
+   "active_customers": 1,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 79.99,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 15.0,
+   "arpu": 79.99,
+   "lifetime_revenue": 1199.85
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 0,
+   "active_customers": 1,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 49.99,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 18.0,
+   "arpu": 49.99,
+   "lifetime_revenue": 899.82
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 0,
+   "active_customers": 1,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 49.99,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 18.0,
+   "arpu": 49.99,
+   "lifetime_revenue": 899.82
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 4,
+   "churned_customers": 0,
+   "active_customers": 4,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 259.96,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 19.75,
+   "arpu": 64.99,
+   "lifetime_revenue": 5119.21
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 4,
+   "churned_customers": 0,
+   "active_customers": 4,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 259.96,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 19.75,
+   "arpu": 64.99,
+   "lifetime_revenue": 5119.21
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 2,
+   "churned_customers": 0,
+   "active_customers": 2,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 129.98,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 23.0,
+   "arpu": 64.99,
+   "lifetime_revenue": 3019.54
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 2,
+   "churned_customers": 0,
+   "active_customers": 2,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 129.98,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 23.0,
+   "arpu": 64.99,
+   "lifetime_revenue": 3019.54
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 0,
+   "active_customers": 1,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 79.99,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 15.0,
+   "arpu": 79.99,
+   "lifetime_revenue": 1199.85
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 0,
+   "active_customers": 1,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 79.99,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 15.0,
+   "arpu": 79.99,
+   "lifetime_revenue": 1199.85
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 0,
+   "active_customers": 1,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 49.99,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 18.0,
+   "arpu": 49.99,
+   "lifetime_revenue": 899.82
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 0,
+   "active_customers": 1,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 49.99,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 18.0,
+   "arpu": 49.99,
+   "lifetime_revenue": 899.82
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "One Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "All",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 4,
+   "churned_customers": 0,
+   "active_customers": 4,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 599.96,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 38.5,
+   "arpu": 149.99,
+   "lifetime_revenue": 23098.46
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 4,
+   "churned_customers": 0,
+   "active_customers": 4,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 599.96,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 38.5,
+   "arpu": 149.99,
+   "lifetime_revenue": 23098.46
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 0,
+   "active_customers": 1,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 149.99,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 48.0,
+   "arpu": 149.99,
+   "lifetime_revenue": 7199.52
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 0,
+   "active_customers": 1,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 149.99,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 48.0,
+   "arpu": 149.99,
+   "lifetime_revenue": 7199.52
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 3,
+   "churned_customers": 0,
+   "active_customers": 3,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 449.97,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 35.333333333333336,
+   "arpu": 149.99,
+   "lifetime_revenue": 15898.94
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 3,
+   "churned_customers": 0,
+   "active_customers": 3,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 449.97,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 35.333333333333336,
+   "arpu": 149.99,
+   "lifetime_revenue": 15898.94
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "All",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "0-6 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "13-24 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 4,
+   "churned_customers": 0,
+   "active_customers": 4,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 599.96,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 38.5,
+   "arpu": 149.99,
+   "lifetime_revenue": 23098.46
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 4,
+   "churned_customers": 0,
+   "active_customers": 4,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 599.96,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 38.5,
+   "arpu": 149.99,
+   "lifetime_revenue": 23098.46
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 0,
+   "active_customers": 1,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 149.99,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 48.0,
+   "arpu": 149.99,
+   "lifetime_revenue": 7199.52
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 1,
+   "churned_customers": 0,
+   "active_customers": 1,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 149.99,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 48.0,
+   "arpu": 149.99,
+   "lifetime_revenue": 7199.52
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 3,
+   "churned_customers": 0,
+   "active_customers": 3,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 449.97,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 35.333333333333336,
+   "arpu": 149.99,
+   "lifetime_revenue": 15898.94
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 3,
+   "churned_customers": 0,
+   "active_customers": 3,
+   "churn_rate_pct": 0.0,
+   "retention_rate_pct": 100.0,
+   "monthly_revenue": 449.97,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": 0.0,
+   "avg_tenure_months": 35.333333333333336,
+   "arpu": 149.99,
+   "lifetime_revenue": 15898.94
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "25+ months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "All",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Bank Transfer",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Credit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "Debit Card",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "All"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Churned"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ },
+ {
+  "filters": {
+   "ContractType": "Two Year",
+   "TenureGroup": "7-12 months",
+   "PaymentMethod": "UPI",
+   "ChurnStatus": "Retained"
+  },
+  "kpis": {
+   "total_customers": 0,
+   "churned_customers": 0,
+   "active_customers": 0,
+   "churn_rate_pct": null,
+   "retention_rate_pct": null,
+   "monthly_revenue": 0.0,
+   "revenue_at_risk": 0.0,
+   "revenue_at_risk_pct": null,
+   "avg_tenure_months": null,
+   "arpu": null,
+   "lifetime_revenue": 0.0
+  }
+ }
+]

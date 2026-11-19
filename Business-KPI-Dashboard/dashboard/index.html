@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Customer Churn KPI Dashboard</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Interactive churn, retention, revenue-at-risk and tenure KPIs for the EdVyro Data Analytics internship customer churn dataset.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <p class="eyebrow">EdVyro Data Analytics internship · Task 2 · student project</p>
+    <h1>Customer churn KPI dashboard</h1>
+    <p class="scope">15 synthetic customers · one observation period · amounts in ₹ (fictional) · source: <code>customer_churn_sample.csv</code></p>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="Dashboard pages">
+  <div class="wrap tab-row" role="tablist">
+    <button class="tab" role="tab" id="tab-overview" data-tab="overview" aria-controls="panel-overview" aria-selected="true">Executive overview</button>
+    <button class="tab" role="tab" id="tab-churn" data-tab="churn" aria-controls="panel-churn" aria-selected="false" tabindex="-1">Churn analysis</button>
+    <button class="tab" role="tab" id="tab-revenue" data-tab="revenue" aria-controls="panel-revenue" aria-selected="false" tabindex="-1">Revenue analysis</button>
+    <button class="tab" role="tab" id="tab-segments" data-tab="segments" aria-controls="panel-segments" aria-selected="false" tabindex="-1">Customer segmentation</button>
+    <button class="tab" role="tab" id="tab-insights" data-tab="insights" aria-controls="panel-insights" aria-selected="false" tabindex="-1">Business insights</button>
+  </div>
+</nav>
+
+<section class="filters" aria-label="Filters">
+  <div class="wrap filter-row">
+    <label class="filter"><span>Contract type</span><select id="f-contract"><option value="All">All contracts</option></select></label>
+    <label class="filter"><span>Tenure group</span><select id="f-tenure"><option value="All">All tenure groups</option></select></label>
+    <label class="filter"><span>Payment method</span><select id="f-payment"><option value="All">All methods</option></select></label>
+    <label class="filter"><span>Churn status</span><select id="f-status"><option value="All">All customers</option></select></label>
+    <div class="filter-meta">
+      <p id="filter-count" aria-live="polite">Showing 15 of 15 customers</p>
+      <button type="button" id="reset" class="btn-quiet">Reset filters</button>
+    </div>
+  </div>
+</section>
+
+<main class="wrap">
+
+  <p class="empty-global" id="empty-global" hidden>No customers match these filters. <button type="button" class="btn-quiet" id="reset-2">Reset filters</button></p>
+
+  <!-- 1. EXECUTIVE OVERVIEW -->
+  <section class="panel" id="panel-overview" role="tabpanel" aria-labelledby="tab-overview">
+    <div class="kpi-grid">
+      <div class="kpi">
+        <span class="kpi-label">Total customers</span>
+        <span class="kpi-value" data-kpi="total_customers" data-format="int">–</span>
+        <span class="kpi-note" data-note="customers"></span>
+      </div>
+      <div class="kpi">
+        <span class="kpi-label"><i class="sw churned" aria-hidden="true"></i>Churn rate</span>
+        <span class="kpi-value" data-kpi="churn_rate_pct" data-format="pct">–</span>
+        <span class="kpi-note" data-note="churn"></span>
+      </div>
+      <div class="kpi">
+        <span class="kpi-label"><i class="sw retained" aria-hidden="true"></i>Retention rate</span>
+        <span class="kpi-value" data-kpi="retention_rate_pct" data-format="pct">–</span>
+        <span class="kpi-note" data-note="retention"></span>
+      </div>
+      <div class="kpi">
+        <span class="kpi-label"><i class="sw churned" aria-hidden="true"></i>Revenue at risk (monthly)</span>
+        <span class="kpi-value" data-kpi="revenue_at_risk" data-format="money">–</span>
+        <span class="kpi-note" data-note="risk"></span>
+      </div>
+    </div>
+
+    <div class="kpi-grid compact">
+      <div class="kpi">
+        <span class="kpi-label">Monthly revenue (MRR)</span>
+        <span class="kpi-value" data-kpi="monthly_revenue" data-format="money">–</span>
+        <span class="kpi-note">Sum of monthly charges</span>
+      </div>
+      <div class="kpi">
+        <span class="kpi-label">Avg revenue per customer</span>
+        <span class="kpi-value" data-kpi="arpu" data-format="money">–</span>
+        <span class="kpi-note">Monthly revenue ÷ customers</span>
+      </div>
+      <div class="kpi">
+        <span class="kpi-label">Average tenure</span>
+        <span class="kpi-value"><span data-kpi="avg_tenure_months" data-format="dec1">–</span> <small>months</small></span>
+        <span class="kpi-note" data-note="tenure"></span>
+      </div>
+      <div class="kpi">
+        <span class="kpi-label">Active customers</span>
+        <span class="kpi-value" data-kpi="active_customers" data-format="int">–</span>
+        <span class="kpi-note" data-note="active"></span>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <article class="card">
+        <header class="card-head"><div><h2>Customer health</h2><p class="insight">Share of customers in view who stayed or left.</p></div></header>
+        <div class="split" id="split" role="img" aria-label="Customer split">
+          <span class="split-seg churned" id="split-churned"></span>
+          <span class="split-seg retained" id="split-retained"></span>
+        </div>
+        <ul class="legend">
+          <li><i class="sw churned" aria-hidden="true"></i>Churned <strong id="split-churned-label">–</strong></li>
+          <li><i class="sw retained" aria-hidden="true"></i>Retained <strong id="split-retained-label">–</strong></li>
+        </ul>
+        <p class="summary" id="health-summary" aria-live="polite"></p>
+      </article>
+
+      <article class="card chart-card" data-chart="ov-contract">
+        <header class="card-head">
+          <div><h2>Churn rate by contract type</h2><p class="insight" data-insight="ov-contract"></p></div>
+          <button type="button" class="table-toggle" aria-pressed="false">Table</button>
+        </header>
+        <div class="chart-box" style="--h: 210px"><canvas id="c-ov-contract" role="img"></canvas></div>
+      </article>
+    </div>
+
+    <article class="card">
+      <header class="card-head"><div><h2>How the KPIs are calculated</h2><p class="insight">Scope: the customers currently in view (all 15 with no filters), one observation period. One row = one customer.</p></div></header>
+      <dl class="defs">
+        <div><dt>Churn rate</dt><dd>Churned customers ÷ total customers × 100</dd></div>
+        <div><dt>Retention rate</dt><dd>Active customers ÷ total customers × 100</dd></div>
+        <div><dt>Revenue at risk</dt><dd>Sum of <code>MonthlyCharges</code> for customers with <code>Churn = Yes</code>: the monthly recurring revenue tied to customers who left</dd></div>
+        <div><dt>Monthly revenue (MRR)</dt><dd>Sum of <code>MonthlyCharges</code> for all customers in view</dd></div>
+        <div><dt>Average tenure</dt><dd>Mean of <code>TenureMonths</code> (completed months since sign-up)</dd></div>
+        <div><dt>Avg revenue per customer</dt><dd>Monthly revenue ÷ total customers (ARPU)</dd></div>
+      </dl>
+    </article>
+  </section>
+
+  <!-- 2. CHURN ANALYSIS -->
+  <section class="panel" id="panel-churn" role="tabpanel" aria-labelledby="tab-churn" hidden>
+    <div class="grid-2">
+      <article class="card chart-card" data-chart="ch-status-contract">
+        <header class="card-head">
+          <div><h2>Churned vs retained customers by contract</h2><p class="insight" data-insight="ch-status-contract"></p></div>
+          <button type="button" class="table-toggle" aria-pressed="false">Table</button>
+        </header>
+        <div class="chart-box" style="--h: 230px"><canvas id="c-ch-status-contract" role="img"></canvas></div>
+      </article>
+      <article class="card chart-card" data-chart="ch-contract">
+        <header class="card-head">
+          <div><h2>Churn rate by contract type</h2><p class="insight" data-insight="ch-contract"></p></div>
+          <button type="button" class="table-toggle" aria-pressed="false">Table</button>
+        </header>
+        <div class="chart-box" style="--h: 230px"><canvas id="c-ch-contract" role="img"></canvas></div>
+      </article>
+      <article class="card chart-card" data-chart="ch-tenure">
+        <header class="card-head">
+          <div><h2>Churn rate by tenure group</h2><p class="insight" data-insight="ch-tenure"></p></div>
+          <button type="button" class="table-toggle" aria-pressed="false">Table</button>
+        </header>
+        <div class="chart-box" style="--h: 250px"><canvas id="c-ch-tenure" role="img"></canvas></div>
+      </article>
+      <article class="card chart-card" data-chart="ch-payment">
+        <header class="card-head">
+          <div><h2>Churn rate by payment method</h2><p class="insight" data-insight="ch-payment"></p></div>
+          <button type="button" class="table-toggle" aria-pressed="false">Table</button>
+        </header>
+        <div class="chart-box" style="--h: 250px"><canvas id="c-ch-payment" role="img"></canvas></div>
+        <p class="caveat">Inside Month-to-Month every payment method churned at 100%, and no Bank Transfer customer is on Month-to-Month. These differences follow the contract mix; see the contract × payment table under Customer segmentation.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 3. REVENUE ANALYSIS -->
+  <section class="panel" id="panel-revenue" role="tabpanel" aria-labelledby="tab-revenue" hidden>
+    <div class="kpi-grid">
+      <div class="kpi">
+        <span class="kpi-label">Monthly revenue (MRR)</span>
+        <span class="kpi-value" data-kpi="monthly_revenue" data-format="money">–</span>
+        <span class="kpi-note">Sum of monthly charges</span>
+      </div>
+      <div class="kpi">
+        <span class="kpi-label"><i class="sw churned" aria-hidden="true"></i>Revenue at risk (monthly)</span>
+        <span class="kpi-value" data-kpi="revenue_at_risk" data-format="money">–</span>
+        <span class="kpi-note" data-note="riskAnnual"></span>
+      </div>
+      <div class="kpi">
+        <span class="kpi-label">Revenue at risk share</span>
+        <span class="kpi-value" data-kpi="revenue_at_risk_pct" data-format="pct">–</span>
+        <span class="kpi-note">Revenue at risk ÷ monthly revenue</span>
+      </div>
+      <div class="kpi">
+        <span class="kpi-label">Avg revenue per customer</span>
+        <span class="kpi-value" data-kpi="arpu" data-format="money">–</span>
+        <span class="kpi-note" data-note="charges"></span>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <article class="card chart-card" data-chart="rv-contract">
+        <header class="card-head">
+          <div><h2>Revenue by contract type: retained vs at risk</h2><p class="insight" data-insight="rv-contract"></p></div>
+          <button type="button" class="table-toggle" aria-pressed="false">Table</button>
+        </header>
+        <div class="chart-box" style="--h: 230px"><canvas id="c-rv-contract" role="img"></canvas></div>
+      </article>
+      <article class="card chart-card" data-chart="rv-plan">
+        <header class="card-head">
+          <div><h2>Monthly charges: customers per price plan</h2><p class="insight" data-insight="rv-plan"></p></div>
+          <button type="button" class="table-toggle" aria-pressed="false">Table</button>
+        </header>
+        <div class="chart-box" style="--h: 230px"><canvas id="c-rv-plan" role="img"></canvas></div>
+      </article>
+      <article class="card chart-card" data-chart="rv-tenure">
+        <header class="card-head">
+          <div><h2>Revenue at risk by tenure group</h2><p class="insight" data-insight="rv-tenure"></p></div>
+          <button type="button" class="table-toggle" aria-pressed="false">Table</button>
+        </header>
+        <div class="chart-box" style="--h: 240px"><canvas id="c-rv-tenure" role="img"></canvas></div>
+      </article>
+      <article class="card chart-card" data-chart="rv-arpu">
+        <header class="card-head">
+          <div><h2>Average revenue per customer by contract</h2><p class="insight" data-insight="rv-arpu"></p></div>
+          <button type="button" class="table-toggle" aria-pressed="false">Table</button>
+        </header>
+        <div class="chart-box" style="--h: 240px"><canvas id="c-rv-arpu" role="img"></canvas></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- 4. CUSTOMER SEGMENTATION -->
+  <section class="panel" id="panel-segments" role="tabpanel" aria-labelledby="tab-segments" hidden>
+    <article class="card">
+      <header class="card-head">
+        <div><h2>Segment table</h2><p class="insight" id="segment-insight"></p></div>
+        <label class="inline-select"><span>Segment by</span>
+          <select id="seg-dim">
+            <option value="ContractType">Contract type</option>
+            <option value="TenureGroup">Tenure group</option>
+            <option value="PaymentMethod">Payment method</option>
+            <option value="SubscriptionType">Plan</option>
+            <option value="SupportTicketBand">Support tickets (90 days)</option>
+            <option value="AgeGroup">Age group</option>
+            <option value="TotalChargesBand">Lifetime charges (₹)</option>
+            <option value="Gender">Gender</option>
+          </select>
+        </label>
+      </header>
+      <div class="table-scroll"><table class="data" id="segment-table"></table></div>
+    </article>
+
+    <div class="grid-2">
+      <article class="card">
+        <header class="card-head"><div><h2>Churn rate: contract × payment method</h2><p class="insight">Read across a row: within one contract type, payment method makes no difference in this sample.</p></div></header>
+        <div class="table-scroll"><table class="data matrix" id="matrix-table"></table></div>
+      </article>
+      <article class="card chart-card" data-chart="sg-tickets">
+        <header class="card-head">
+          <div><h2>Customer churn by support contact</h2><p class="insight" data-insight="sg-tickets"></p></div>
+          <button type="button" class="table-toggle" aria-pressed="false">Table</button>
+        </header>
+        <div class="chart-box" style="--h: 210px"><canvas id="c-sg-tickets" role="img"></canvas></div>
+      </article>
+      <article class="card chart-card" data-chart="sg-tenure">
+        <header class="card-head">
+          <div><h2>Tenure segmentation</h2><p class="insight" data-insight="sg-tenure"></p></div>
+          <button type="button" class="table-toggle" aria-pressed="false">Table</button>
+        </header>
+        <div class="chart-box" style="--h: 240px"><canvas id="c-sg-tenure" role="img"></canvas></div>
+      </article>
+      <article class="card chart-card" data-chart="sg-payment">
+        <header class="card-head">
+          <div><h2>Payment method segmentation</h2><p class="insight" data-insight="sg-payment"></p></div>
+          <button type="button" class="table-toggle" aria-pressed="false">Table</button>
+        </header>
+        <div class="chart-box" style="--h: 240px"><canvas id="c-sg-payment" role="img"></canvas></div>
+      </article>
+    </div>
+
+    <article class="card">
+      <header class="card-head"><div><h2>Customers in view</h2><p class="insight" id="customer-count"></p></div></header>
+      <div class="table-scroll"><table class="data" id="customer-table"></table></div>
+    </article>
+  </section>
+
+  <!-- 5. BUSINESS INSIGHTS -->
+  <section class="panel insights" id="panel-insights" role="tabpanel" aria-labelledby="tab-insights" hidden>
+    <p class="note">This page describes all 15 customers. The filters above do not change it.</p>
+
+    <article class="card lead">
+      <h2>Decision question</h2>
+      <p>Which customer groups should a fictional subscription team contact first to reduce avoidable churn? <span class="muted">(from the EdVyro Customer Churn Analysis Guide)</span></p>
+      <p class="callout">The 7 churned customers are exactly the 7 Month-to-Month customers. They are also the customers with 2–14 months' tenure and 3–6 support tickets. With 15 records the data cannot say which trait matters most, and none of these patterns proves cause.</p>
+    </article>
+
+    <div class="grid-2">
+      <article class="card">
+        <h2>Key findings</h2>
+        <ol class="findings">
+          <li><strong>Nearly half the customers left.</strong> 7 of 15 churned (46.7%). By revenue the loss is 32.3% of MRR, because churned customers paid less per month (₹58.56 vs ₹107.49).</li>
+          <li><strong>Contract type separates churners completely.</strong> Month-to-Month 7 of 7 churned; One Year 0 of 4; Two Year 0 of 4.</li>
+          <li><strong>Churn is concentrated in the first year.</strong> All 6 customers with 12 months' tenure or less churned; 1 of 5 at 13–24 months; 0 of 4 at 25+.</li>
+          <li><strong>High support contact goes with churn.</strong> All 5 customers with 4+ tickets churned; none of the 6 with 0–1. Churned customers averaged 4.3 tickets vs 1.0.</li>
+          <li><strong>Payment method and plan differences follow the contract mix.</strong> Inside each contract type, churn does not vary by payment method or plan.</li>
+        </ol>
+      </article>
+
+      <article class="card">
+        <h2>High-risk segments</h2>
+        <div class="table-scroll">
+          <table class="data">
+            <thead><tr><th scope="col">Segment</th><th scope="col" class="num">Customers</th><th scope="col" class="num">Churn rate</th><th scope="col" class="num">Revenue at risk</th><th scope="col" class="num">Share</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Month-to-Month contract</th><td class="num">7</td><td class="num">100%</td><td class="num">₹409.93</td><td class="num">100%</td></tr>
+              <tr><th scope="row">Tenure 0–12 months</th><td class="num">6</td><td class="num">100%</td><td class="num">₹329.94</td><td class="num">80.5%</td></tr>
+              <tr><th scope="row">4+ support tickets</th><td class="num">5</td><td class="num">100%</td><td class="num">₹279.95</td><td class="num">68.3%</td></tr>
+              <tr><th scope="row">Basic plan</th><td class="num">7</td><td class="num">71.4%</td><td class="num">₹249.95</td><td class="num">61.0%</td></tr>
+              <tr><th scope="row">UPI payment</th><td class="num">4</td><td class="num">75.0%</td><td class="num">₹149.97</td><td class="num">36.6%</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="caveat">Rows overlap (mostly the same customers), so shares add up to more than 100%.</p>
+      </article>
+
+      <article class="card">
+        <h2>Revenue risk observations</h2>
+        <ul class="plain">
+          <li>₹409.93 of ₹1,269.85 monthly revenue (32.3%) is tied to churned customers: about ₹4,919 a year if none are won back (monthly × 12, unchanged prices).</li>
+          <li>61.0% of revenue at risk is from the Basic plan (₹249.95) and 39.0% from Pro (₹159.98). Enterprise contributes none.</li>
+          <li>Churned customers had paid ₹3,109.51 in lifetime charges, 9.9% of the ₹31,327.18 total, because they left early.</li>
+          <li>Two Year customers hold ₹599.96 (47.2%) of monthly revenue with 0% churn.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>Retention opportunities</h2>
+        <ul class="plain">
+          <li><strong>Early-life Month-to-Month customers.</strong> Every observed loss happened here, so work aimed at the first 12 months of a Month-to-Month plan covers 100% of revenue at risk.</li>
+          <li><strong>Active watch list.</strong> CUST-1006 (One Year, 18 months, Basic, ₹49.99) and CUST-1009 (One Year, 15 months, Pro, ₹79.99) have 2 support tickets each, the most of any active customer. Together: ₹129.98 MRR (15.1% of retained revenue). A descriptive filter, not a prediction.</li>
+          <li><strong>Long contracts are stable.</strong> One Year and Two Year customers hold 67.7% of monthly revenue with 0% churn; protect their renewals.</li>
+        </ul>
+      </article>
+    </div>
+
+    <article class="card">
+      <h2>Recommendations</h2>
+      <p class="insight">Each names the audience, decision, supporting metric, uncertainty and next measurement, as the EdVyro data guide asks.</p>
+      <div class="table-scroll">
+        <table class="data recs">
+          <thead><tr><th scope="col">Audience</th><th scope="col">Decision</th><th scope="col">Supporting metric</th><th scope="col">Uncertainty</th><th scope="col">Next measurement</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Retention team</th><td>Pilot an offer that moves new Month-to-Month customers to a One Year plan.</td><td>Month-to-Month churn 100% (7/7) vs 0% (0/8); 100% of revenue at risk.</td><td>Self-selection: customers who pick long contracts may differ. 15 records.</td><td>Churn of offer group vs a comparison group over 3 months.</td></tr>
+            <tr><th scope="row">Customer success</th><td>Onboarding check-ins at months 1, 3, 6 and 12.</td><td>6/6 customers ≤ 12 months churned; 80.5% of revenue at risk.</td><td>Tenure overlaps fully with contract type here.</td><td>Churn by tenure band for the next sign-up cohort.</td></tr>
+            <tr><th scope="row">Support lead</th><td>Escalate any customer reaching 3 tickets in 90 days for a root-cause call.</td><td>4+ tickets: 5/5 churned; churners averaged 4.3 tickets vs 1.0.</td><td>Tickets may be a symptom; no ticket reasons in the data.</td><td>Churn and resolution time for flagged customers; record ticket category.</td></tr>
+            <tr><th scope="row">Account managers</th><td>Check in with CUST-1006 and CUST-1009 before their One Year renewals.</td><td>Most tickets among active customers; ₹129.98 MRR.</td><td>No renewal dates; 2 tickets is not evidence they will leave.</td><td>Renewal outcome of both accounts.</td></tr>
+            <tr><th scope="row">Product / pricing</th><td>Review the first months of Basic and Pro on Month-to-Month; test a plan-fit conversation at sign-up.</td><td>Basic 71.4% churn, 61.0% of revenue at risk; Enterprise 0%.</td><td>Plan is confounded with contract type.</td><td>Churn by plan within the same contract type.</td></tr>
+            <tr><th scope="row">Analytics team</th><td>Collect sign-up, churn and renewal dates plus ticket reasons; re-run on a full extract.</td><td>Only 15 records with fully overlapping traits.</td><td>Findings may not hold at scale.</td><td>Segment churn rates with confidence intervals on the larger data.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+
+    <article class="card">
+      <h2>Limitations</h2>
+      <ul class="plain cols">
+        <li><strong>Small sample.</strong> 15 customers; one customer moves a segment's churn rate by 14–50 points.</li>
+        <li><strong>No dates.</strong> Churn cannot be shown per month or as a trend.</li>
+        <li><strong>Overlapping traits.</strong> Contract, tenure, tickets, plan and age move together.</li>
+        <li><strong>Correlation only.</strong> Nothing here shows that changing a contract, plan or payment method changes behaviour.</li>
+        <li><strong>Synthetic data.</strong> Fictional training records; no conclusions about real customers.</li>
+        <li><strong>Field names.</strong> The data guide lists <code>customer_id</code>, <code>monthly_charge</code> and Monthly / quarterly / annual contracts; the supplied CSV uses <code>CustomerID</code>, <code>MonthlyCharges</code> and Month-to-Month / One Year / Two Year. This dashboard follows the CSV.</li>
+      </ul>
+    </article>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>Cleaning and KPI calculations: <code>analysis/data_analysis.py</code> and <code>analysis/kpi_calculations.py</code>. Every figure on this page is recalculated in the browser from the 15 cleaned rows and was checked against the Python results for all 300 filter combinations.</p>
+    <p>Supplementary web version of the Power BI dashboard. Data: EdVyro synthetic training dataset.</p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="data.js"></script>
+<script src="metrics.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
